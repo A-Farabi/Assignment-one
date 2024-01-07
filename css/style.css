@@ -118,3 +118,20 @@ header{
     text-transform: uppercase;
     text-decoration: none;
 }
+
+/* schedule starts here */
+.primary-btn a{
+    background-color: #F00;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 8px;
+}
+.schedule-controller{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+.schedule-content{
+    text-align: center;
+    padding: 110px;
+}
