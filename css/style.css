@@ -185,3 +185,29 @@ header{
     line-height: 32px;
     margin: 20px 0px;
 }
+
+/* holidays sale starts here */
+.holidays-center-title{
+    text-align: center;
+}
+.holidays-center-title h2{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.holidays-center-title h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+.holidays-center-title p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
