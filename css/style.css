@@ -190,6 +190,10 @@ header{
 }
 
 /* holidays sale starts here */
+.holidays-sale{
+    width: 1330px;
+    margin: 0 auto;
+}
 .holidays-center-title{
     text-align: center;
 }
@@ -256,7 +260,30 @@ header{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     border-radius: 16px;
 }
-/* subscribe starts here */
+
+.holidays-row-one-image{
+    display: inline-block;
+}
+
+/* .holidays-row-one-image{
+    display: flex;
+    justify-content: space-between;
+} */
+.rel-image{
+    position: relative;
+    z-index: -1;
+    margin-left: 90px;
+}
+.abs-image{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -120px;
+    z-index: 1;
+}
+
+
+
+/* subscribe starts here -------------------------------------------------------------------------------*/
 .subscribe-controller{
     width: 1330px;
     margin: 0 auto;
