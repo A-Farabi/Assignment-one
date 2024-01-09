@@ -3,6 +3,9 @@
     padding: 0;
     font-family: merriweather;
 }
+a{
+    text-decoration: none;
+}
 .container{
     width: 1700px;
     margin: 0 auto;
@@ -248,6 +251,7 @@ header{
 .image{
     margin-right: 24px;
     margin-bottom: 24px;
+    border-radius: 16px;
 }
 .portfolio-section{
     width: 1330px;
@@ -255,4 +259,55 @@ header{
 }
 .portfolio-images{
     margin-top: 48px;
+}
+/* subscribe starts here */
+.subscribe-controller{
+    width: 1330px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+}
+.subscribe-content{
+    padding: 80px 0px;
+}
+.subscribe-content h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-bottom: 22px;
+}
+.subscribe-content p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+/* footer input starts here */
+.footer-input input{
+    border-radius: 50px;
+    background: #FFF;
+    padding: 2% 10%;
+    border: none;
+    position: relative;
+}
+.footer-input button{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: #F00;
+    padding: 1.2%;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    position: absolute;
+    margin-left: -50px;
 }
